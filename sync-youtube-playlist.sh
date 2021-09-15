@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ $# -lt 1 ]; then
-  echo "Pass the path to a YouTube-dl archive file created with the --download-archive option. "
+  echo "Pass the path to a YouTube-dl archive file created with the --download-archive option."
   echo "Usage: `basename $0` already_downloaded.txt"
   exit
 else
